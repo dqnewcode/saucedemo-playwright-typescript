@@ -35,7 +35,7 @@ test('E2E Checkout + validate item prices, subtotal, tax & total', async ({ page
 
   // Checkout flow
   await cart.clickCheckout();
-  await checkout.fillCustomerInfo('John', 'Doe', '12345');
+  await checkout.fillCustomerInfo('anton', 'marawa', '12345');
 
   // Validate UI subtotal, tax, total
   await checkout.validatePrices(expectedSubtotal);

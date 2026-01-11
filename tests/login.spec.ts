@@ -14,6 +14,7 @@ test('Failed Login with Invalid Credentials', async ({ page }) => {
   await loginPage.login('wrong_user', 'wrong_pass');
   const errorMessage = await loginPage.getErrorMessage();
   expect(errorMessage).toContain("Epic sadface");
+  console.log(`>>> Error Message: ${errorMessage}`);
   
  // await expect(await loginPage.getErrorMessage()).toContain('Username and password do not match');
 });

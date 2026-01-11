@@ -10,16 +10,6 @@ export const homeLocators = {
     
   sortDropdown: '[data-test="product-sort-container"]',
 
-
-//   sortDropdown: (page: Page): Locator =>
-//     page.locator('[data-test="product_sort_container"]'),
-
-
   LBL_PRICE: '[data-test="inventory-item-price"]'
 }
    
-// page.locator('[data-test="shopping-cart-link"]');
-// page.getByRole('button', { name: 'Open Menu' });
-// page.locator('[data-test="product-sort-container"]');
-
-// page.locator('[data-test="add-to-cart-sauce-labs-backpack"]');
